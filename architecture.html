@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+         
+        }
+         .input{
+            background-color: #d7d6d4;
+            color: red;
+         }
+        .line1{
+          width: 178px;
+          height: 1.5px;
+          background-color: black;
+          margin-top: 40px;
+          margin-left: 200px;
+        }
+        .line2{
+          width: 51.6%;
+          height: 1.5px;
+          background-color: black;
+          margin-left: 500px;
+        }
+        .text1{
+            width: 120px;
+            font-size: 29px;
+        }
+        .box{
+            height: 60px;
+            margin-left: 225px;
+            display: flex;    
+        }
+        .navbar{
+            
+            width: 400px;
+            margin-top: 11px;
+            margin-left: 200px;
+            height: 20px;
+        }
+        li:hover{
+            color: black;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            color: grey;
+        }
+        .search{
+            width: 250px;
+            height: 40px;
+            margin-left: 90px;  
+            display: flex;
+            justify-content: space-between;
+        }
+        .so{
+            border-style: none none solid;
+            border-width: 1px 1px 0.5px;
+            height: 33px;
+        }
+        .nv{
+            
+            writing-mode: vertical-rl;
+            margin-top: 130px;
+            height: 250px;
+            display: flex;
+            padding: 2px;
+            justify-content: space-evenly;
+        }
+        .nv.na{
+         text-orientation: upright;
+        }
+        .text2{
+            background-color: black;
+            text-align: center;
+            height: 26.9px;
+            width: 130px;
+            padding-top: 7px;
+            }
+        a{
+                text-decoration: none;
+                background-color: black;
+                color: white;
+            }
+        .main{
+                width:750px;
+                height: 615px;
+            }
+        .numline1{
+                display: flex;
+                justify-content: space-between;
+                height: 26px;
+                margin-left: 80px;
+                margin-top: 60px;
+                width: 370px;
+                font-size: x-small;
+                font-family:  'Roboto Mono', sans-serif;
+            }
+        .p1
+           {
+            margin-top: 5px;
+           }
+           .p2{
+            
+            margin-top: 5px;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+           }
+        .bigtext1{
+            height: 70px;
+            width: 400px;
+            font-size: 70px;
+            margin-left: 244px;
+           }
+        .bimage{
+           
+           height: 300px;
+           width: 344px;
+        
+           }
+           
+        .bb{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            height:634px;
+           }
+        .lp{
+            display: flex;
+            justify-content: center;
+               
+               }
+        .second{
+                height: 550px;
+               }
+        .gp{
+                height: 350px;
+                width: 700px;
+                display: flex;
+               }
+        .ga{
+                height: 300px;
+                width: 400px;
+                display: inline;
+                justify-content: space-evenly;
+               }
+        .text3{
+                background-color: black;
+                text-align: center;
+                height: 26.9px;
+                width: 200px;
+                padding-top: 7px;
+                margin-left:70px ;
+                margin-top: 25px;
+                }
+        .m1{
+                    margin-top: 20px;
+                    margin-left:20px;
+                    width: 170px;
+                }
+        .p3{
+                color: grey;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                }
+        .l9{
+                    height: 20px;
+                    width: 300px;
+                    margin-top: 70px;
+                    word-spacing: 3px;
+                    letter-spacing: 2px;
+
+                }
+        .common:hover{
+                    background-color: white;
+                }
+        .common{
+                    width: 300px;
+                    height: 70px;
+                    display: flex;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    cursor: pointer;
+                }  
+        .ib1{
+                    height: 70px;
+                }
+        .ib2{
+                    height: 70px;
+                    
+                }
+        .bt1{
+                   margin-top: 10px;
+                   margin-right: 20px;
+                   font-size: 16px;
+                   text-align:center;
+                   letter-spacing: 1px;
+                   width: 170px;  
+                   background-color: transparent;  
+                }
+        .bt2{
+                    height: 8px; 
+                }
+        .sbt1{
+                    color: rgba(0, 0, 0, 0.4);  
+                    font-size: 13px;
+                    width: 160px;
+                    margin-left: 29px;
+                    word-spacing: 5px;
+                }
+        .pn1{
+                    height: 20px;
+                    width: 300px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    font-size: small;
+                }
+        .dk{
+                
+                    height: 20px;
+                    width: 400px; 
+                    font-size: small;
+                    color: rgba(0, 0, 0, 0.4) ;
+                }   
+                .zb{
+                   
+                    display: flex;
+                    font-size: small;
+                    align-content:baseline;
+                    margin-left:120px ;
+                    width: 700px;
+                      justify-content: space-evenly;
+                    color: rgba(0, 0, 0, 0.4); 
+                }.l5{
+                    background-color: black;
+                    width: 30px;
+                    margin-top: 6px;
+                    height: 1.5px;
+                }
+                .hh{
+                    display: flex;
+                    justify-content:space-between ;
+                    width: 180px;
+                }
+               body{
+                background-color: #d7d6d4;
+               }
+               .p9{
+                letter-spacing: 1px;
+                color: gray;
+                transform: rotate(180deg);
+               }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="line1"></div>
+        <div class="line2"></div>
+
+        <div class="box">
+        <div class="text1"><p>Architecture Magazine</p></div>
+        <div class="navbar">
+            <ul>
+                <li> Home</li>
+                <li>Our Work</li>
+                <li>Architecture</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="search">
+            <div class="input">
+                <input type="text" value="TYPE"  style="background-color: #d7d6d4;" class="so">
+            </div>
+            <div class="text2">
+                <a href="#">Search</a>
+            </div>
+           
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="bb">
+            <div class="nv">
+                <div>
+                    <i  style="font-size:20px" class="fa">&#xf099;</i>
+                    <i style="font-size:20px" class="fa">&#xf09a;</i>
+                    <i style="font-size:15px" class="fa">&#xf1e3;</i>
+                </div>
+                <p class="p9"><small><strong>Social Our</strong></small></p>
+            </div>
+        <div class="main">
+            <div class="numline1">
+            <p class="p1">01</p>
+            <p class="p2">MORE ABOUT ARCHITECTURE</p>
+        </div>
+        <div class="bigtext1">Architecture </div>
+        <div class="gp">
+              <img class="bimage" src="https://uploads-ssl.webflow.com/5e2a945ce8da5abdf8214f62/5e2abf1647a6a26eba5e5476_5ce80d6d935d746d58dbbf94_image-1.png" alt="">
+              <div class="ga">
+                <h1 class="m1">Architecture Magazine</h1>
+                <p class="p3">We decided to use a class diagram instead of an object diagram since we wanted to show the classes our project consists of and what those classes were each capable of (methods). The object diagram would instead have shown the interaction between the classes at some point in run time.
+               </p>
+               <div class="text3">
+               <a href="#">See Full Article</a>
+               </div>
+                </div>  
+                </div>
+                <div class="zb">
+                    <p>01</p>
+                    <p>DESIGNED BY:  NAVEEN VERMA</p>
+                    <div class="hh">
+                        <div class="l5"></div>
+                        <p>WATCH TUTORIAL</p>
+                    </div>
+                   
+                </div>
+                </div>
+                <div class="second">
+                <div class="l9">
+                <small><strong>Next Articles</strong></small>
+                </div>
+                <div class="common">
+                <img class="ib1" src="https://assets.website-files.com/5ce80c8c5d5c6004b2de7e6f/5ce80d6d935d747875dbbf93_image-6.png" alt="">
+                <div><p class="bt1 common2">PHOTOGRAPHY</p>
+                <p class="sbt1 common2 ">20.November 2016</p>   
+                </div>
+                </div>
+                <div class=" common">
+                <img class="ib1" src="https://assets.website-files.com/5ce80c8c5d5c6004b2de7e6f/5ce80d6d39a39a4f12d7adbd_image-4.png" alt="">
+                <div><p class="bt1 common2">INTERIOR</p>
+                <pre><p class="sbt1 common2 "> 08.January 2015</p></pre>   
+                </div>
+                </div>
+                <div class="common">
+                <img class="ib1" src="https://assets.website-files.com/5ce80c8c5d5c6004b2de7e6f/5ce80d6d39a39a21fed7adbc_image-5.png" alt="">
+                <div><p class="bt1 common2 ">EXTERIOR</p>
+                <pre><p class="sbt1 common2">  NO. Posts</p></pre>   
+                </div>
+                </div>
+                <p class="pn1">BOOKS
+                <i style="font-size:20px" class="fa">&#xf061;</i>
+                </p>
+                <div class="common">
+                <img class="ib2" src="https://assets.website-files.com/5ce80c8c5d5c6004b2de7e6f/5ce80d6d165f600699cb030c_image-7.png" alt="">
+                <div><p class="bt1 common2">BLUEPRINT & BUILDINGS 
+                </p>
+                <p class="sbt1 common2">Russell Kennedy</p>   
+                </div>
+                </div>
+                <div class="common">
+                <img class="ib2" src="https://assets.website-files.com/5ce80c8c5d5c6004b2de7e6f/5ce80d6d5d5c6045c1de81e1_image-2.png" alt="">
+                <div><p class="bt1 common2">MODERN ARCHITECTURE</p>
+                <p class= "sbt1 common2">Mitchel Pittman</p>   
+                </div>
+                </div>
+                <div class="common">
+                <img class="ib2" src="https://assets.website-files.com/5ce80c8c5d5c6004b2de7e6f/5ce80d6d5d5c602790de81e2_image-3.png" alt="">
+                <div><p class="bt1 common2">ARCHITECTURE</p>
+                <p class="sbt1 common2">Chirstain A.Jones</p>
+                </div>
+                </div>
+                </div>
+                </div>
+                </main>
+                <footer>
+                </footer>    
+                </body>
+                </html>
